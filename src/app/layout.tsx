@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Kanit, Skranji } from "next/font/google";
 import "./globals.css";
+import { FaMoneyBillWaveAlt, FaShoppingCart } from "react-icons/fa";
+import { ModalMoedas } from "@/components/ModalMoedas/modalMoedas";
 
 const kanitRegular = Kanit({
   subsets: ["latin"],
@@ -26,6 +28,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
       <head>
@@ -34,6 +37,10 @@ export default function RootLayout({
       <body
         className={`${kanitRegular.className} ${skranjiBold.variable} antialiased`}
       >
+        <div className="flex gap-4 absolute top-5 right-5">
+          <button className="bg-amber-700 px-4 py-2 rounded flex gap-4 font-bold"><FaMoneyBillWaveAlt fontSize={24} /> 50 </button>
+          <button className=" bg-amber-700 px-4 py-2 rounded flex gap-4 font-bold"><FaShoppingCart fontSize={24} /> 2 </button>
+        </div>
         {children}
       </body>
     </html>

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Kanit, Skranji } from "next/font/google";
-import "./globals.css";
+import './globals.css';
 import { FaMoneyBillWaveAlt, FaShoppingCart } from "react-icons/fa";
-import { ModalMoedas } from "@/components/ModalMoedas/modalMoedas";
+
 
 const kanitRegular = Kanit({
   subsets: ["latin"],

@@ -1,0 +1,13 @@
+{
+    "pages": {
+        "landing": {
+            "nav": {
+                "title": "Merchant's Province",
+                "sections": {
+                    "realm": "The Realm"
+                },
+                "beginJourney": "Begin your tale"
+            }
+        }
+    }
+}

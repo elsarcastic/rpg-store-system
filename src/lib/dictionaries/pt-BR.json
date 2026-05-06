@@ -1,0 +1,18 @@
+{
+    "pages": {
+        "landing": {
+            "nav": {
+                "title": "Província do Mercador",
+                "sections": {
+                    "realm": "O Reino",
+                    "chronicles": "As Crônicas",
+                    "ledger": "Economia",
+                    "settings": "Configurações"
+                },
+                "beginJourney": "Comece sua história"
+            },
+            "title": "Província do Mercador",
+            "subtitle": "Construtor de Mundos"
+        }
+    }
+}

@@ -15,11 +15,11 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-newsreader), Arial;
 }
 
 h1 {
-  font-family: var(--font-skranji-bold);
+  font-family: var(--font-newsreader);
 }
 
 button {
@@ -42,4 +42,14 @@ button {
     border: 3px solid #dbdbda;
   }
 
+}
+
+@theme {
+  --color-base-100: #161311;
+  --color-base-200: #1F1B19;
+  --color-base-300: #393431;
+  --color-base-350: #2E2927;
+  --color-primary: #E9C176;
+  --color-primary-hover: #FFDC9C;
+  --color-secondary: #261900;
 }

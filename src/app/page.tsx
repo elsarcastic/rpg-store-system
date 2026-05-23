@@ -2,7 +2,10 @@
 
 import { BackgroundImage } from "@/components/backgroungImage/backgroundImage";
 import { useTranslation } from "@/hooks/useTranslation";
-import { FramedButton } from "./stores/armas/components/button/framedButton";
+import paper from "@/assets/svg/paper.svg";
+import Image from "next/image";
+import { StoneButton } from "@/components/button/stoneButton";
+import { SealButton } from "@/components/button/sealButton";
 
 export default function Home() {
   const { t } = useTranslation("pages.landing");
@@ -21,10 +24,10 @@ export default function Home() {
               <li>{t("nav.sections.ledger")}</li>
               <li>{t("nav.sections.settings")}</li>
             </ul>
-            <FramedButton>{t("nav.beginJourney")}</FramedButton>
+            <StoneButton>{t("nav.beginJourney")}</StoneButton>
           </div>
         </nav>
-        <section className="flex flex-col gap-8">
+        <section className="flex flex-col gap-8 items-center" id="hero">
           <div className="flex justify-center items-center">
             <p className="uppercase text-amber-500 h-7 px-4 flex justify-center items-center leading-none text-xs border border-primary/30 bg-primary/30 rounded-sm">
               EST. 1244 <span className="mx-4 font-bold">&middot;</span> The
@@ -33,15 +36,21 @@ export default function Home() {
           </div>
           <div
             style={{ backgroundImage: `url(${bgImage})` }}
-            className="bg-center bg-no-repeat bg-contain h-80 flex flex-col gap-4 items-center justify-center text-secondary"
+            className="bg-center bg-no-repeat bg-contain h-80 w-[800px] flex flex-col gap-4 items-center justify-center text-secondary relative"
           >
-            <h1 className="text-[86px] font-bold max-w-2/4 text-center leading-none">
+            <h1 className="text-[86px] font-bold w-[500px] text-center leading-none">
               {t("title")}
             </h1>
             <h3 className="text-2xl italic text-secondary/70">
               {t("subtitle")}
             </h3>
+            <Image
+              className="absolute bottom-8 right-6 opacity-20"
+              src={paper}
+              alt="papiro"
+            />
           </div>
+          <SealButton className="text-lg">{t("beginJourney")}</SealButton>
         </section>
       </div>
     </BackgroundImage>

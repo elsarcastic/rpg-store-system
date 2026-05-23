@@ -1,10 +1,10 @@
-type FramedButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement>;
+type StoneButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement>;
 
-export function FramedButton({
+export function StoneButton({
   children,
   className = "",
   ...rest
-}: FramedButtonProps) {
+}: StoneButtonProps) {
   return (
     <button
       className={`

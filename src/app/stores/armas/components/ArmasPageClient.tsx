@@ -1,6 +1,6 @@
 "use client";
 
-import { BackgroundImage } from "@/components/backgroungImage/backgroundImage";
+import { BackgroundImage } from "@/components/BackgroungImage/backgroundImage";
 import { getSaudacao } from "@/utils/utils";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
@@ -14,7 +14,7 @@ type Props = {
 
 export default function ArmasPageClient({ vendedor }: Props) {
   const [isOpen, setIsOpen] = useState(false);
-  
+
   const vendedorNome = vendedor?.split(".")[0].substring(1) || "";
   const saudacao = getSaudacao();
 

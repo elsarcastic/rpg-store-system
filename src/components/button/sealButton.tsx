@@ -6,12 +6,15 @@ export function SealButton({
   ...rest
 }: SealButtonProps) {
   return (
-    <button className="bg-red-400 p-1 rounded" {...rest}>
-      <p
-        className={`border border-secondary border-dashed rounded text-secondary font-bold p-4 ${className}`}
+    <button
+      className="bg-[#FF815F] hover:bg-[#de5c38] hover:scale-95 transition-all cursor-pointer p-1.5 rounded"
+      {...rest}
+    >
+      <span
+        className={`border-2 border-secondary/40 border-dashed rounded-lg text-secondary font-bold p-4 box-border ${className}`}
       >
         {children}
-      </p>
+      </span>
     </button>
   );
 }

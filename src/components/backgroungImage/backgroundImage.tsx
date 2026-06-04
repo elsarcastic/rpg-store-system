@@ -1,46 +1,57 @@
-'use client'
+"use client";
 
-// import { getImageProps } from 'next/image'
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
-interface backgroundImageProps extends React.HTMLAttributes<HTMLButtonElement> {
-    children: React.ReactNode;
-    linkImage: string;
+type GradientType = "dark" | "light" | "none";
+
+interface BackgroundImageProps extends React.HTMLAttributes<HTMLElement> {
+  children: React.ReactNode;
+  linkImage: string;
+  mobileImage: string;
+  gradient?: GradientType;
 }
 
-// function getBackgroundImage(srcSet = '') {
-//     const imageSet = srcSet
-//         .split(', ')
-//         .map((str) => {
-//             const [url, dpi] = str.split(' ')
-//             return `url("${url}") ${dpi}`
-//         })
-//         .join(', ')
-//     return `image-set(${imageSet})`
-// }
+export function BackgroundImage({
+  children,
+  linkImage,
+  mobileImage,
+  gradient = "none",
+  ...rest
+}: BackgroundImageProps) {
+  const [currentImage, setCurrentImage] = useState(linkImage);
 
+  useEffect(() => {
+    function updateImage() {
+      setCurrentImage(window.innerWidth < 1020 ? mobileImage : linkImage);
+    }
 
-export function BackgroundImage({ children, linkImage, mobileImage, ...rest }: backgroundImageProps & { mobileImage: string }) {
-    const [currentImage, setCurrentImage] = useState(linkImage);
+    updateImage();
+    window.addEventListener("resize", updateImage);
 
-    useEffect(() => {
-        function updateImage() {
-            if (window.innerWidth < 1020) {
-                setCurrentImage(mobileImage);
-            } else {
-                setCurrentImage(linkImage);
-            }
-        }
+    return () => window.removeEventListener("resize", updateImage);
+  }, [linkImage, mobileImage]);
 
-        updateImage(); // Verifica ao carregar a página
-        window.addEventListener('resize', updateImage);
+  const gradients = {
+    none: "",
+    dark: "linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%)",
+    light:
+      "linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%)",
+  };
 
-        return () => window.removeEventListener('resize', updateImage);
-    }, [linkImage, mobileImage]);
-
-    return (
-        <main style={{ height: '100vh', width: '100vw', backgroundImage: `url(${currentImage})`, backgroundSize: 'cover', backgroundPosition: 'top center' }} {...rest}>
-            {children}
-        </main>
-    );
+  return (
+    <main
+      style={{
+        minHeight: "100vh",
+        backgroundImage: gradients[gradient]
+          ? `${gradients[gradient]}, url(${currentImage})`
+          : `url(${currentImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "top center",
+        backgroundRepeat: "no-repeat",
+      }}
+      {...rest}
+    >
+      {children}
+    </main>
+  );
 }

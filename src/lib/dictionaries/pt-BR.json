@@ -11,9 +11,49 @@
                 },
                 "beginJourney": "Comece sua história"
             },
-            "title": "Província do Mercador",
-            "subtitle": "Construtor de Mundos",
-            "beginJourney": "Comece sua história"
+            "hero": {
+                "title": "Província do Mercador",
+                "subtitle": "Construtor de Mundos",
+                "beginYour": "Comece sua",
+                "journey": "história",
+                "phrase": "A caneta é mais pesada que a espada quando o livro-razão está cheio do ouro das nações."
+            },
+           "features": {
+                "livingEconomy": {
+                    "title": "Um Mundo que Negocia, Lembra e Evolui",
+                    "description": "Construa cidades, molde economias e veja sua campanha evoluir através de cada negociação, aliança e transação realizada pelos jogadores"
+                },
+                "characterSheets": {
+                    "title": "Fichas de Personagem Vivas",
+                    "description": "Inventários, riquezas, equipamentos e relacionamentos permanecem sincronizados em todas as lojas, distritos e sessões"
+                },
+                "merchantCities": {
+                    "title": "Mercadores e Guildas Inteligentes",
+                    "description": "Povoe seu mundo com mercadores, guildas, mercados negros e distritos de artesãos que moldam a identidade de cada vilarejo"
+                },
+                "tradeSystems": {
+                    "title": "Mercados que Nunca Dormem",
+                    "description": "Preços, estoques, itens raros e o comportamento dos vendedores reagem à escassez, eventos regionais, influência de facções e reputação dos jogadores"
+                },
+                "interactiveWorldbuilding": {
+                    "title": "Cartografia Interativa",
+                    "description": "Projete distritos, mercados e assentamentos conectados através de sistemas interativos de gerenciamento de cidades e províncias"
+                },
+                "narrativeTools": {
+                    "title": "Infraestrutura Narrativa",
+                    "description": "Gerencie contratos, decretos, rumores e influência política por meio de sistemas projetados para sustentar narrativas emergentes"
+                }
+            },
+            "quote": {
+                "phrase": "Reinos não são erguidos por reis, mas pelas histórias, acordos e ambições de seu povo.",
+                "signature": "Dos Registros do Cronista"
+            },
+            "footer": {
+                "documentation": "Arquivos Reais",
+                "developmentLog": "Crônicas da Província",
+                "community": "Junte-se à Guilda",
+                "copyright": "© 1244 Província do Mercador. Todos os registros preservados."
+            }
         }
     }
 }

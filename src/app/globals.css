@@ -16,8 +16,14 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: var(--font-newsreader), Arial;
+  box-sizing: border-box;
 }
 
+*,
+*:before,
+*::after {
+  box-sizing: border-box;
+}
 h1 {
   font-family: var(--font-newsreader);
 }

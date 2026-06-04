@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Newsreader } from "next/font/google";
-import './globals.css';
+import "./globals.css";
 import { LanguageProvider } from "@/context/languageContext";
-
+import { BackgroundAudio } from "@/components/BackgroundAudio/BackgroundAudio";
 
 const newsreader = Newsreader({
   subsets: ["latin"],
-  weight: ["400", "700","600", "800"],
+  weight: ["400", "700", "600", "800"],
   variable: "--font-newsreader",
 });
 
@@ -21,18 +21,14 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
   return (
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body
-        className={`${newsreader.variable} antialiased`}
-      >
-        <LanguageProvider>
-        {children}
-        </LanguageProvider>
+      <body className={`${newsreader.variable} antialiased`}>
+        <BackgroundAudio src="audio/landingBackground.mp3" />
+        <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>
   );

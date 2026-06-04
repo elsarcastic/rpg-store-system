@@ -2,7 +2,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useLanguage } from "@/context/languageContext";
+import { useLanguage } from "@/contexts/languageContext";
 
 const dictionaries = {
   en: () => import("@/lib/dictionaries/en-US.json"),

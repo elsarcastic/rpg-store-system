@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Newsreader } from "next/font/google";
 import "./globals.css";
-import { LanguageProvider } from "@/context/languageContext";
-import { BackgroundAudio } from "@/components/BackgroundAudio/BackgroundAudio";
+import { LanguageProvider } from "@/contexts/languageContext";
+import { AudioProvider } from "@/contexts/audioContext";
 
 const newsreader = Newsreader({
   subsets: ["latin"],
@@ -27,8 +27,9 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body className={`${newsreader.variable} antialiased`}>
-        <BackgroundAudio src="audio/landingBackground.mp3" />
-        <LanguageProvider>{children}</LanguageProvider>
+        <LanguageProvider>
+          <AudioProvider>{children}</AudioProvider>
+        </LanguageProvider>
       </body>
     </html>
   );

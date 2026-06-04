@@ -6,6 +6,9 @@ import compass from "./compass.svg";
 import eye from "./eye.svg";
 import hammer from "./hammer.svg";
 import people from "./people.svg";
+import play from "./play.svg";
+import pause from "./pause.svg";
+import chevronDown from "./chevron-down.svg";
 
 
 export {
@@ -17,4 +20,7 @@ export {
   eye,
   hammer,
   people,
+  pause,
+  play,
+  chevronDown,
 };

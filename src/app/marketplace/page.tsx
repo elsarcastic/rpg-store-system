@@ -3,6 +3,7 @@
 import { BackgroundImage } from "@/components/BackgroungImage/backgroundImage";
 import { Vendedor } from "./components/vendedor";
 import { useRouter } from "next/navigation";
+import { useAmbience } from "@/hooks/useAmbience";
 
 const vendedores = [
   {
@@ -33,6 +34,7 @@ const vendedores = [
 ];
 
 export default function Home() {
+  useAmbience("marketplace");
   const router = useRouter();
 
   return (

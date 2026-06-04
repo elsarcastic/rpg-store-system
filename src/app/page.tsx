@@ -19,25 +19,35 @@ import { StoneButton } from "@/components/Button/stoneButton";
 import { SealButton } from "@/components/Button/sealButton";
 import { GridCard } from "@/components/Card/GridCard";
 import { Icon } from "@/components/Icon/Icon";
+import { useAmbience } from "@/hooks/useAmbience";
+import { AudioButton } from "@/components/Button/audioButton";
+import { useLanguage } from "@/contexts/languageContext";
+import { LanguageSelector } from "@/components/LanguageSelector/LanguageSelector";
+import { FloatingNavbar } from "@/components/FloatingNavbar/FloatingNavbar";
 
 export default function Home() {
+  useAmbience("landing");
   const { t } = useTranslation("pages.landing");
+  const { setLanguage, language } = useLanguage();
 
   return (
-    <div className="flex flex-col">
-      <nav className="border-b-base-300 border-b-2">
+    <div className="flex flex-col relative">
+      <FloatingNavbar className="border-b-base-300 border-b-2">
         <div className="bg-base-100 py-6 px-8 flex items-center justify-between text-primary">
           <h2 className="font-extrabold text-xl">{t("nav.title")}</h2>
           <ul className="flex gap-8 uppercase text-sm">
             <li>{t("nav.sections.realm")}</li>
             <li>{t("nav.sections.chronicles")}</li>
             <li>{t("nav.sections.ledger")}</li>
-            <li>{t("nav.sections.settings")}</li>
           </ul>
-          <StoneButton>{t("nav.beginJourney")}</StoneButton>
+          <div className="flex gap-4 items-center">
+            <LanguageSelector value={language} onChange={setLanguage} />
+            <StoneButton>{t("nav.beginJourney")}</StoneButton>
+          </div>
         </div>
-      </nav>
-      <div className="flex flex-col gap-20" id="content">
+      </FloatingNavbar>
+      <div className="flex flex-col gap-20 relative" id="content">
+        <AudioButton className="fixed top-32 left-4 z-50 border border-primary/10" />
         <BackgroundImage
           mobileImage="./valthorne.jpg"
           gradient="dark"

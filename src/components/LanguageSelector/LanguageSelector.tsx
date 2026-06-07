@@ -5,10 +5,10 @@ import { useEffect, useRef, useState } from "react";
 
 type Language = "pt" | "en";
 
-type LanguageSelectorProps = {
+interface LanguageSelectorProps {
   value: Language;
   onChange: (language: Language) => void;
-};
+}
 
 const languages = [
   {

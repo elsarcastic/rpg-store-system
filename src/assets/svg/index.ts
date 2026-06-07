@@ -9,6 +9,11 @@ import people from "./people.svg";
 import play from "./play.svg";
 import pause from "./pause.svg";
 import chevronDown from "./chevron-down.svg";
+import blackHammer from "./black-hammer.svg";
+import anchor from "./ancora.svg";
+import scale from "./balanca.svg";
+import tools from "./tools.svg";
+import underConstruction from "./under-construction.svg";
 
 
 export {
@@ -23,4 +28,9 @@ export {
   pause,
   play,
   chevronDown,
+  blackHammer,
+  anchor,
+  tools,
+  scale,
+  underConstruction,
 };

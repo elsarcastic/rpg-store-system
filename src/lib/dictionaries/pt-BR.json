@@ -8,44 +8,116 @@
                     "chronicles": "As Crônicas",
                     "ledger": "Economia"
                 },
-                "beginJourney": "Comece sua história"
+                "beginJourney": "Construa sua província"
             },
-            "hero": {
-                "title": "Província do Mercador",
-                "subtitle": "Construtor de Mundos",
-                "beginYour": "Comece sua",
-                "journey": "história",
-                "phrase": "A caneta é mais pesada que a espada quando o livro-razão está cheio do ouro das nações."
-            },
-           "features": {
-                "livingEconomy": {
-                    "title": "Um Mundo que Negocia, Lembra e Evolui",
-                    "description": "Construa cidades, molde economias e veja sua campanha evoluir através de cada negociação, aliança e transação realizada pelos jogadores"
+            "realm": {
+                "hero": {
+                    "title": "Província do Mercador",
+                    "badge": "CIDADES • DISTRITOS • GUILDAS • COMÉRCIO",
+                    "subtitle": "Crie cidades, distritos e economias que evoluem junto com seus jogadores",
+                    "beginYour": "Construa sua",
+                    "journey": "província",
+                    "phrase": "A caneta é mais pesada que a espada quando o livro-razão está cheio do ouro das nações."
                 },
-                "characterSheets": {
-                    "title": "Fichas de Personagem Vivas",
-                    "description": "Inventários, riquezas, equipamentos e relacionamentos permanecem sincronizados em todas as lojas, distritos e sessões"
+                "features": {
+                    "livingEconomy": {
+                        "title": "Um Mundo que Negocia, Lembra e Evolui",
+                        "description": "Construa cidades, molde economias e veja sua campanha evoluir através de cada negociação, aliança e transação realizada pelos jogadores"
+                    },
+                    "characterSheets": {
+                        "title": "Fichas de Personagem Vivas",
+                        "description": "Inventários, riquezas, equipamentos e relacionamentos permanecem sincronizados em todas as lojas, distritos e sessões"
+                    },
+                    "merchantCities": {
+                        "title": "Mercadores e Guildas Inteligentes",
+                        "description": "Povoe seu mundo com mercadores, guildas, mercados negros e distritos de artesãos que moldam a identidade de cada vilarejo"
+                    },
+                    "tradeSystems": {
+                        "title": "Mercados que Nunca Dormem",
+                        "description": "Preços, estoques, itens raros e o comportamento dos vendedores reagem à escassez, eventos regionais, influência de facções e reputação dos jogadores"
+                    },
+                    "interactiveWorldbuilding": {
+                        "title": "Cartografia Interativa",
+                        "description": "Projete distritos, mercados e assentamentos conectados através de sistemas interativos de gerenciamento de cidades e províncias"
+                    },
+                    "narrativeTools": {
+                        "title": "Infraestrutura Narrativa",
+                        "description": "Gerencie contratos, decretos, rumores e influência política por meio de sistemas projetados para sustentar narrativas emergentes"
+                    }
                 },
-                "merchantCities": {
-                    "title": "Mercadores e Guildas Inteligentes",
-                    "description": "Povoe seu mundo com mercadores, guildas, mercados negros e distritos de artesãos que moldam a identidade de cada vilarejo"
+                "provinceDistricts": {
+                    "title": "A Província Viva",
+                    "description": "Um mundo onde cada rota comercial é uma veia e cada distrito um órgão vital.",
+                    "status": {
+                        "title": "Status da província",
+                        "politicalInfluence": "Influência Política",
+                        "tradeVolume": "Volume Comercial",
+                        "artisanProduction": "Produção Artesã",
+                        "prosperity": "Prosperidade",
+                        "updated": "Atualizado no 12º dia da lua da colheita"
+                    },
+                    "districts": {
+                        "commercial": {
+                            "title": "Distrito Comercial",
+                            "responsible": "Controlado pela Guilda dos Mercadores",
+                            "system": "Sistema: Economia e Comércio"
+                        },
+                        "political": {
+                            "title": "Distrito Político",
+                            "responsible": "Controlado pela Administração Real",
+                            "system": "Sistema: Decretos e Influência"
+                        },
+                        "port": {
+                            "title": "O Porto",
+                            "responsible": "Garantido pela Liga dos Navegadores",
+                            "system": "Sistema: Expansão e Logística"
+                        },
+                        "artisan": {
+                            "title": "Distrito de Artesanato",
+                            "responsible": "Gerenciado pela União Artesã",
+                            "system": "Sistema: Produção e Recursos"
+                        },
+                        "underMarket": {
+                            "title": "O Mercado Negro",
+                            "responsible": "Influenciado por Consórcio das Sombras",
+                            "system": "Sistema: Sombras e Segredos",
+                            "logo": "CDS"
+                        }
+                    },
+                    "activity": "atividade alta",
+                    "network": {
+                        "title": "rede sistêmica",
+                        "routes": "rotas de comércio",
+                        "influence": "influência política"
+                    }
                 },
-                "tradeSystems": {
-                    "title": "Mercados que Nunca Dormem",
-                    "description": "Preços, estoques, itens raros e o comportamento dos vendedores reagem à escassez, eventos regionais, influência de facções e reputação dos jogadores"
+                "demo": {
+                    "phrase": "Explore uma província em pleno funcionamento e veja como cidades, mercadores e personagens reagem às ações dos jogadores.",
+                    "button": "Iniciar Demonstração",
+                    "badge": "Crônica Interativa"
                 },
-                "interactiveWorldbuilding": {
-                    "title": "Cartografia Interativa",
-                    "description": "Projete distritos, mercados e assentamentos conectados através de sistemas interativos de gerenciamento de cidades e províncias"
-                },
-                "narrativeTools": {
-                    "title": "Infraestrutura Narrativa",
-                    "description": "Gerencie contratos, decretos, rumores e influência política por meio de sistemas projetados para sustentar narrativas emergentes"
+                "quote": {
+                    "phrase": "Reinos não são erguidos por reis, mas pelas histórias, acordos e ambições de seu povo.",
+                    "signature": "Dos Registros do Cronista"
                 }
             },
-            "quote": {
-                "phrase": "Reinos não são erguidos por reis, mas pelas histórias, acordos e ambições de seu povo.",
-                "signature": "Dos Registros do Cronista"
+            "economy": {
+                "underConstruction": {
+                    "title": "O Mercado Está Sendo Recontabilizado",
+                    "subtitle": "A Guilda está verificando estoques, contratos e rotas comerciais.",
+                    "description": "Os registros comerciais de toda a província ainda estão sendo consolidados. Preços, relatórios e movimentações dos mercadores estarão disponíveis quando a contagem for concluída.",
+                    "returnWhen": "Retorne quando a Guilda dos Mercadores autorizar o acesso público aos registros.",
+                    "returnButton": "Voltar ao Reino"
+                }
+            },
+            "chronicles": {
+                "underConstruction": {
+                    "title": "Os Cronistas Ainda Estão Escrevendo",
+                    "subtitle": "O Arquivo Real ainda não recebeu os relatos mais recentes vindos de toda a província.",
+                    "description": "Nossos escribas estão reunindo relatos, rumores, decretos e testemunhos dos distritos mais distantes. O próximo capítulo da história da província ainda está sendo compilado.",
+                    "returnWhen": "Retorne quando a Guilda dos Cronistas concluir seus registros.",
+                    "returnButton": "Voltar ao Centro da Província"
+                }
             },
             "footer": {
                 "documentation": "Arquivos Reais",

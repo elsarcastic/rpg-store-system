@@ -7,7 +7,7 @@ export function SealButton({
 }: SealButtonProps) {
   return (
     <button
-      className="bg-[#FF815F] hover:bg-[#de5c38] hover:scale-95 transition-all cursor-pointer p-1.5 rounded"
+      className="bg-[#FF815F] hover:bg-[#de5c38] active:scale-95 transition-all cursor-pointer p-1.5 rounded"
       {...rest}
     >
       <span

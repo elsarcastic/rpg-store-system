@@ -8,44 +8,116 @@
                     "chronicles": "The Chronicles",
                     "ledger": "Economy"
                 },
-                "beginJourney": "Begin your tale"
+                "beginJourney": "Found your province"
             },
-            "hero": {
-                "title": "Merchant's Province",
-                "subtitle": "Founder of Realms",
-                "beginYour": "Begin your",
-                "journey": "Tale",
-                "phrase": "The pen is weightier than the sword when the ledger is filled with the gold of nations."
-            },
-           "features": {
-                "livingEconomy": {
-                "title": "A World That Trades, Remembers, and Evolves",
-                "description": "Build cities, shape economies, and watch your campaign evolve through every trade, alliance, and transaction made by your players"
+            "realm": {
+                "hero": {
+                    "title": "Merchant's Province",
+                    "badge": "CITIES • DISTRICTS • GUILDS • COMMERCE",
+                    "subtitle": "Create cities, districts, and economies that evolve along with your players",
+                    "beginYour": "Found your",
+                    "journey": "Province",
+                    "phrase": "The pen is weightier than the sword when the ledger is filled with the gold of nations."
                 },
-                "characterSheets": {
-                "title": "Living Character Sheets",
-                "description": "Inventories, wealth, equipment, and relationships remain synchronized across every shop, district, and session"
+                "features": {
+                    "livingEconomy": {
+                        "title": "A World That Trades, Remembers, and Evolves",
+                        "description": "Build cities, shape economies, and watch your campaign evolve through every trade, alliance, and transaction made by your players"
+                    },
+                    "characterSheets": {
+                        "title": "Living Character Sheets",
+                        "description": "Inventories, wealth, equipment, and relationships remain synchronized across every shop, district, and session"
+                    },
+                    "merchantCities": {
+                        "title": "Intelligent Merchants and Guilds",
+                        "description": "Populate your world with merchants, guilds, black markets, and artisan districts that shape the identity of every settlement"
+                    },
+                    "tradeSystems": {
+                        "title": "Markets That Never Sleep",
+                        "description": "Prices, stock levels, rare goods, and merchant behavior react to scarcity, regional events, faction influence, and player reputation"
+                    },
+                    "interactiveWorldbuilding": {
+                        "title": "Interactive Cartography",
+                        "description": "Design districts, marketplaces, and connected settlements through interactive city and province management systems"
+                    },
+                    "narrativeTools": {
+                        "title": "Narrative Infrastructure",
+                        "description": "Manage contracts, decrees, rumors, and political influence through systems designed to support emergent storytelling"
+                    }
                 },
-                "merchantCities": {
-                "title": "Intelligent Merchants and Guilds",
-                "description": "Populate your world with merchants, guilds, black markets, and artisan districts that shape the identity of every settlement"
+                "provinceDistricts": {
+                    "title": "The Living Province",
+                    "description": "A world where every trade route is a vein and every district a vital organ.",
+                    "status": {
+                        "title": "Province Status",
+                        "politicalInfluence": "Political Influence",
+                        "tradeVolume": "Trade Volume",
+                        "artisanProduction": "Artisan Production",
+                        "prosperity": "Prosperity",
+                        "updated": "Updated: 12th of Harvest Moon"
+                    },
+                    "districts": {
+                        "commercial": {
+                            "title": "Commercial District",
+                            "responsible": "Controlled by Merchant Guild",
+                            "system": "System: Economy & Trade"
+                        },
+                        "political": {
+                            "title": "Political District",
+                            "responsible": "Controlled by Royal Administration",
+                            "system": "System: Decrees & Influence"
+                        },
+                        "port": {
+                            "title": "The Port",
+                            "responsible": "Secured by Navigators' League",
+                            "system": "System: Expansion & Logistics"
+                        },
+                        "artisan": {
+                            "title": "Artisan District",
+                            "responsible": "Managed by Artisan Union",
+                            "system": "System: Productions and Resources"
+                        },
+                        "underMarket": {
+                            "title": "The Black Market",
+                            "responsible": "Influenced by Consortium of Shadows",
+                            "system": "System: Shadows and Secrets",
+                            "logo": "COS"
+                        }
+                    },
+                    "activity": "high activity",
+                    "network": {
+                        "title": "system network",
+                        "routes": "trade routes",
+                        "influence": "political influence"
+                    }
                 },
-                "tradeSystems": {
-                "title": "Markets That Never Sleep",
-                "description": "Prices, stock levels, rare goods, and merchant behavior react to scarcity, regional events, faction influence, and player reputation"
+                "demo": {
+                    "phrase": "Step into a living province and experience how cities, merchants, and characters evolve in response to player decisions.",
+                    "button": "Try the Demo",
+                    "badge": "Interactive Chronicle"
                 },
-                "interactiveWorldbuilding": {
-                "title": "Interactive Cartography",
-                "description": "Design districts, marketplaces, and connected settlements through interactive city and province management systems"
-                },
-                "narrativeTools": {
-                "title": "Narrative Infrastructure",
-                "description": "Manage contracts, decrees, rumors, and political influence through systems designed to support emergent storytelling"
+                "quote": {
+                    "phrase": "Kingdoms are not built by kings, but by the stories, agreements, and ambitions of their people.",
+                    "signature": "From the Chronicler's Records"
                 }
             },
-            "quote": {
-                "phrase": "Kingdoms are not built by kings, but by the stories, agreements, and ambitions of their people.",
-                "signature": "From the Chronicler's Records"
+             "economy": {
+                "underConstruction": {
+                    "title": "The Market Is Being Recounted",
+                    "subtitle": "The Guild's auditors are verifying inventories, contracts and trade routes.",
+                    "description": "Trade records from across the province are still being consolidated. Prices, reports and merchant activity will become available once the recount is complete.",
+                    "returnWhen": "Return when the Merchant Guild authorizes public access to the records.",
+                    "returnButton": "Return to The Realm"
+                }
+            },
+            "chronicles": {
+                "underConstruction": {
+                    "title": "The Chroniclers Are Still Writing",
+                    "subtitle": "The Royal Archive has not yet received the latest accounts from across the province",
+                    "description": "Our scribes are gathering reports, rumors, decrees, and testimonies from distant districts. The next chapter of the province's history is still being compiled.",
+                    "returnWhen": "Return once the Guild of Chroniclers has completed its records.",
+                    "returnButton": "Return to The Realm"
+                }
             },
             "footer": {
                 "documentation": "Royal Archives",

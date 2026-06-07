@@ -2,12 +2,12 @@
 
 import { ReactNode, useEffect, useRef, useState } from "react";
 
-type FloatingNavbarProps = {
+interface FloatingNavbarProps {
   children: ReactNode;
   className?: string;
   delayToShow?: number;
   topThreshold?: number;
-};
+}
 
 export function FloatingNavbar({
   children,
@@ -76,8 +76,8 @@ export function FloatingNavbar({
       </header>
 
       <header
-        className={`fixed z-10 transition-all duration-300 w-full
-          ${floatingVisible ? "translate-y-0 opacity-100" : "-translate-y-8 opacity-0 pointer-events-none"}
+        className={`fixed z-20 w-full
+          ${floatingVisible ? "translate-y-0 opacity-100 transition-all duration-300" : "-translate-y-8 opacity-0 pointer-events-none"}
           ${className}
         `}
       >

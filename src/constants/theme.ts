@@ -4,7 +4,8 @@ export type ColorToken =
   | "base-100"
   | "base-200"
   | "base-300"
-  | "base-350";
+  | "base-350"
+  | "light-red";
 
 export type OpacityToken =
   | 10
@@ -31,7 +32,6 @@ export const backgrounds = {
     90: "bg-primary/90",
     100: "bg-primary",
   },
-
   secondary: {
     10: "bg-secondary/10",
     20: "bg-secondary/20",
@@ -44,7 +44,6 @@ export const backgrounds = {
     90: "bg-secondary/90",
     100: "bg-secondary",
   },
-
   "base-100": {
     10: "bg-base-100/10",
     20: "bg-base-100/20",
@@ -57,7 +56,6 @@ export const backgrounds = {
     90: "bg-base-100/90",
     100: "bg-base-100",
   },
-
   "base-200": {
     10: "bg-base-200/10",
     20: "bg-base-200/20",
@@ -70,7 +68,6 @@ export const backgrounds = {
     90: "bg-base-200/90",
     100: "bg-base-200",
   },
-
   "base-300": {
     10: "bg-base-300/10",
     20: "bg-base-300/20",
@@ -83,7 +80,6 @@ export const backgrounds = {
     90: "bg-base-300/90",
     100: "bg-base-300",
   },
-
   "base-350": {
     10: "bg-base-350/10",
     20: "bg-base-350/20",
@@ -95,5 +91,17 @@ export const backgrounds = {
     80: "bg-base-350/80",
     90: "bg-base-350/90",
     100: "bg-base-350",
+  },
+  "light-red": {
+    10: "bg-red-300/10",
+    20: "bg-red-300/20",
+    30: "bg-red-300/30",
+    40: "bg-red-300/40",
+    50: "bg-red-300/50",
+    60: "bg-red-300/60",
+    70: "bg-red-300/70",
+    80: "bg-red-300/80",
+    90: "bg-red-300/90",
+    100: "bg-red-300",
   },
 } as const;

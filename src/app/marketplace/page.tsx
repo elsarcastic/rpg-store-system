@@ -1,6 +1,6 @@
 "use client";
 
-import { BackgroundImage } from "@/components/BackgroungImage/backgroundImage";
+import { BackgroundImage } from "@/components/BackgroungImage/BackgroundImage";
 import { Vendedor } from "./components/vendedor";
 import { useRouter } from "next/navigation";
 import { useAmbience } from "@/hooks/useAmbience";

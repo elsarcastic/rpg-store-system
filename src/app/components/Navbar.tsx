@@ -1,4 +1,4 @@
-import { StoneButton } from "@/components/Button/stoneButton";
+import { StoneButton } from "@/components/Button/StoneButton";
 import { LanguageSelector } from "@/components/LanguageSelector/LanguageSelector";
 import { useLanguage } from "@/contexts/languageContext";
 import { cn } from "@/lib/utils/cn";

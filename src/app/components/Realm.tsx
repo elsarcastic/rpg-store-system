@@ -1,4 +1,4 @@
-import { BackgroundImage } from "@/components/BackgroungImage/backgroundImage";
+import { BackgroundImage } from "@/components/BackgroungImage/BackgroundImage";
 import {
   paper,
   cube,
@@ -17,10 +17,10 @@ import ledgerBook from "@/assets/img/ledger.jpg";
 import province from "@/assets/img/province.jpg";
 import quill from "@/assets/img/quill.png";
 import Image from "next/image";
-import { SealButton } from "@/components/Button/sealButton";
+import { SealButton } from "@/components/Button/SealButton";
 import { GridCard } from "@/components/Card/GridCard";
 import { Icon } from "@/components/Icon/Icon";
-import { AudioButton } from "@/components/Button/audioButton";
+import { AudioButton } from "@/components/Button/AudioButton";
 import { DistrictCard } from "./DistrictCard";
 import { useState } from "react";
 import { cn } from "@/lib/utils/cn";

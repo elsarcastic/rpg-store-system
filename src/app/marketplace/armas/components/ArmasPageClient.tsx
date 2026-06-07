@@ -1,6 +1,6 @@
 "use client";
 
-import { BackgroundImage } from "@/components/BackgroungImage/backgroundImage";
+import { BackgroundImage } from "@/components/BackgroungImage/BackgroundImage";
 import { getSaudacao } from "@/utils/utils";
 import Image from "next/image";
 import { useRouter } from "next/navigation";

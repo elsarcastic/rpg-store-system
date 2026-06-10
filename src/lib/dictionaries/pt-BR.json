@@ -102,6 +102,59 @@
                 }
             },
             "economy": {
+                "newsCarousel": {
+                    "borderWar": "GUERRA NA FRONTEIRA: ARMAS +30%, FERRO +18%",
+                    "harvest": "COLHEITA ABUNDANTE: ALIMENTOS -25%, PREÇOS DA CERVEJA ESTÁVEIS",
+                    "decree": "DECRETO IMPERIAL: IMPOSTO SOBRE PRATA +2% PARA ALIADOS DA GUILDA",
+                    "plague": "RUMORES DE PRAGA NAS PLANTAÇÕES DE ERVAS DO LESTE: POÇÕES EM ALTA"
+                },
+                "hero": {
+                    "title": "Cada moeda deixa uma marca no mundo",
+                    "subtitle": "Uma economia dinâmica onde suas transações reverberam por distritos, guildas e pelo equilíbrio da província.",
+                    "audit": "Abrir os Registros"
+                },
+                "flow": {
+                    "title": "O Fluxo do Poder",
+                    "subtitle": "Cada transação desencadeia uma série de consequências em todo o território imperial.",
+                    "diagram": {
+                        "character": {
+                            "title": "Personagem",
+                            "subtitle": "A faísca"
+                        },
+                        "merchant": {
+                            "title": "Comerciante",
+                            "subtitle": "O Catalisador"
+                        },
+                        "district": {
+                            "title": "Distrito",
+                            "subtitle": "Riqueza Local"
+                        },
+                        "guild": {
+                            "title": "Guilda",
+                            "subtitle": "Controle de Mercado"
+                        },
+                        "city": {
+                            "title": "Cidade",
+                            "subtitle": "Tesouro Estadual"
+                        },
+                        "economy": {
+                            "title": "Economia",
+                            "subtitle": "Mudanças Globais"
+                        },
+                        "influence": {
+                            "title": "Influência política",
+                            "subtitle": "Destino do Mundo"
+                        }
+                    },
+                    "description": "Ao comprar uma espada no Distrito Portuário, a Guilda dos Ferreiros ganha poder de barganha contra o Almirantado. Os preços do aço sobem no bairro dos Artesãos, e a cidade aumenta as patrulhas da guarda perto da forja. Seu ouro é mais do que moeda; é um voto pelo mundo em que você deseja viver."
+                },
+                "events": {},
+                "factions": {},
+                "livingDistricts": {},
+                "livingLink": {},
+                "merchantsTrust": {},
+                "merchantRegistres": {},
+                "bargain": {},
                 "underConstruction": {
                     "title": "O Mercado Está Sendo Recontabilizado",
                     "subtitle": "A Guilda está verificando estoques, contratos e rotas comerciais.",

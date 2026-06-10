@@ -101,7 +101,53 @@
                     "signature": "From the Chronicler's Records"
                 }
             },
-             "economy": {
+            "economy": {
+                "newsCarousel": {
+                    "borderWar": "BORDER WAR: ARMS +30%, IRON +18%x",
+                    "harvest": "BOUNTIFUL HARVEST: FOOD -25%, ALE PRICES STABLE",
+                    "decree": "IMPERIAL DECREE: SILVER TAX +2% FOR GUILD ALLIES",
+                    "plague": "RUMORS OF A PLAGUE IN THE EASTERN HERB FIELDS: POTIONS ON THE RISE"
+                },
+                "hero": {
+                    "title": "Every coin leaves its mark on the world",
+                    "subtitle": "A dynamic economy where your transactions echo across districts, guilds, and the balance of the province.",
+                    "audit": "Open the Ledger"
+                },
+                "flow": {
+                    "title": "The Flow of Power",
+                    "subtitle": "Every transaction sets off a chain of consequences throughout the empire.",
+                    "diagram": {
+                        "character": {
+                            "title": "Character",
+                            "subtitle": "The Spark"
+                        },
+                        "merchant": {
+                            "title": "Merchant",
+                            "subtitle": "The Catalyst"
+                        },
+                        "district": {
+                            "title": "District",
+                            "subtitle": "Local Prosperity"
+                        },
+                        "guild": {
+                            "title": "Guild",
+                            "subtitle": "Market Control"
+                        },
+                        "city": {
+                            "title": "City",
+                            "subtitle": "State Treasury"
+                        },
+                        "economy": {
+                            "title": "Economy",
+                            "subtitle": "Global Shifts"
+                        },
+                        "influence": {
+                            "title": "Political Influence",
+                            "subtitle": "The World's Fate"
+                        }
+                    },
+                    "description": "When you purchase a sword in the Harbor District, the Blacksmiths' Guild gains leverage against the Admiralty. Steel prices rise in the Artisans' Quarter, and the city increases guard patrols around the forge. Your gold is more than currency; it is a vote for the kind of world you wish to inhabit."
+                },
                 "underConstruction": {
                     "title": "The Market Is Being Recounted",
                     "subtitle": "The Guild's auditors are verifying inventories, contracts and trade routes.",

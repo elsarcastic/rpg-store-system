@@ -21,7 +21,7 @@ import { SealButton } from "@/components/Button/SealButton";
 import { GridCard } from "@/components/Card/GridCard";
 import { Icon } from "@/components/Icon/Icon";
 import { AudioButton } from "@/components/Button/AudioButton";
-import { DistrictCard } from "./DistrictCard";
+import { DistrictCard } from "./Realm/DistrictCard";
 import { useState } from "react";
 import { cn } from "@/lib/utils/cn";
 

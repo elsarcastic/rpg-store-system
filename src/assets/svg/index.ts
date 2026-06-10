@@ -14,7 +14,15 @@ import anchor from "./ancora.svg";
 import scale from "./balanca.svg";
 import tools from "./tools.svg";
 import underConstruction from "./under-construction.svg";
-
+import chart from "./chart.svg";
+import person from "./person.svg";
+import market from "./market.svg";
+import city from "./city.svg";
+import district from "./district.svg";
+import arrow from "./arrow.svg";
+import peopleGold from "./people-gold.svg";
+import bigHammer from "./big-hammer.svg";
+import flowBackground from "./flow-background.svg";
 
 export {
   paper,
@@ -33,4 +41,13 @@ export {
   tools,
   scale,
   underConstruction,
+  chart,
+  city,
+  district,
+  market,
+  person,
+  arrow,
+  peopleGold,
+  bigHammer,
+  flowBackground,
 };

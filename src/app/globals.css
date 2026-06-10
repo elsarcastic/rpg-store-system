@@ -60,3 +60,27 @@ button {
   --color-secondary: #261900;
   --color-text-muted: #D1C5B4;
 }
+
+@layer utilities {
+  .animation-pause {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes slide-left-infinite {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-slide-left-infinite {
+  animation: slide-left-infinite 50s linear infinite;
+}
+
+.animation-pause {
+  animation-play-state: paused;
+}
